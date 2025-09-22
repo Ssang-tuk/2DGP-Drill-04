@@ -23,9 +23,16 @@ while True:
     #     delay(0.2)
 
 
-    for x in range(8, 328, 32):
+    # for x in range(8, 328, 32):
+    #     clear_canvas()
+    #     kirby.clip_draw(x, 1021, 32, 32, 400, 300, 300, 300)
+    #     update_canvas()
+    #     frame = (frame + 1) % 8
+    #     delay(0.2)
+
+    for x in range(7, 347, 34):
         clear_canvas()
-        kirby.clip_draw(x, 1021, 32, 32, 400, 300, 300, 300)
+        kirby.clip_draw(x, 980, 34, 34, 400, 300, 300, 300)
         update_canvas()
         frame = (frame + 1) % 8
         delay(0.2)
